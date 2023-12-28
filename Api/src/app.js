@@ -2,7 +2,7 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
-
+import { router } from './routes/index.js';
 import './db.js'; // Importa tu archivo db.js directamente
 
 export const server = express();
@@ -19,7 +19,7 @@ server.use((req, res, next) => {
   next();
 });
 
-
+server.use('/', router)
 // Error catching endware.
 server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   const status = err.status || 500;

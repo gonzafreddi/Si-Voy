@@ -20,7 +20,7 @@ definePlaces(sequelize)
 defineUser(sequelize)
 defineProvince(sequelize)
 defineType(sequelize)
-const {
+export const {
     User,
     Country,
     Places,
