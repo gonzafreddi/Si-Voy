@@ -39,6 +39,11 @@ export const defineUser = (sequelize)=>{
             type: DataTypes.STRING,
             allowNull: true,
         },
+        admin:{
+            type:DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false
+        }
 })
     return User
 }
