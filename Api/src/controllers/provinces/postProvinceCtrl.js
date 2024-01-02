@@ -1,16 +1,10 @@
 import { Province } from "../../db.js";
 import { Country } from "../../db.js";
 import { getEntityId } from "../../helpers/getEntityId.js";
-import {provincias} from "../../../../listaProvincia.json"
+
 
 export const postProvinceCtrl = async(req, res) => {
   try {
-
-    
-
-
-
-
 
     const { name, countryName } = req.body;
     console.log(countryName)
@@ -29,6 +23,7 @@ export const postProvinceCtrl = async(req, res) => {
       throw new Error('Province already exists');
     }
   } catch (error) {
-    res.status(400).send(error.message);
+    console.log(error)
+    // res.status(400).send(error.message);
   }
 };

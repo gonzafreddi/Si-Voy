@@ -5,6 +5,8 @@ const PORT = process.env.PORT || 3000
 
 conn.sync({ alter:true}).then(() => {
     server.listen(PORT, () => {
+
+    
       console.log(`server listening at ${PORT}`); 
     });
   });

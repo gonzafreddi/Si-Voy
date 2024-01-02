@@ -12,11 +12,13 @@ export const postCityCtrl = async(req, res)=>{
             }
         })
         if(created){
+            console.log('me creo', newCity)
             return res.status(200).send(newCity)
         }else{
             throw new Error('City already exists')
         }
     } catch (error) {
+        console.log(error.message)
         res.status(400).send(error.message)
     }
 }
