@@ -9,7 +9,7 @@ export const store = createStore(
     reducer, 
     composeEnhacer(applyMiddleware(thunk))); // Esta linea nos permite hacer peticiones a un servidor
 
-export default store
+export default store 
 
 
 
