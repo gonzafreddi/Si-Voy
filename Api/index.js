@@ -1,11 +1,13 @@
 import { server } from "./src/app.js";
 import {conn} from './src/db.js'
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
-conn.sync({ force:true}).then(() => {
+conn.sync({ alter:true}).then(() => {
     server.listen(PORT, () => {
-      console.log(`server listening at ${PORT}`); // eslint-disable-line no-console
+
+    
+      console.log(`server listening at ${PORT}`); 
     });
   });
   

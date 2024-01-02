@@ -1,0 +1,67 @@
+{
+  "draw": 1,
+  "recordsTotal": 10,
+  "recordsFiltered": 25,
+  "data": [
+    {
+      "id": 14,
+      "nombre": "La Pampa",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 16,
+      "nombre": "Buenos Aires",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 19,
+      "nombre": "Córdoba",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 22,
+      "nombre": "Misiones",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 23,
+      "nombre": "Chubut",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 29,
+      "nombre": "Neuquén",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 36,
+      "nombre": "Catamarca",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 37,
+      "nombre": "La Rioja",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 39,
+      "nombre": "San Luis",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 40,
+      "nombre": "San Juan",
+      "idPais": 1,
+      "pais": "Argentina"
+    }
+  ]
+}

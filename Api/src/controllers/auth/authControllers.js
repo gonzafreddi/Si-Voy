@@ -4,11 +4,9 @@ import { User } from "../../db.js"
 export const registerUserController = async (req, res)=>{
     try {
         const {userName , password, lastName, name, premiun, photo, email} = req.body
-        console.log({
-           "controller": req.body
-        })
+
         let hashedPassword = await encrypt(password);
-       console.log(password)
+
        const [newUser, created] = await User.findOrCreate({
            where:{email},
            defaults:{
