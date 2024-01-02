@@ -1,3 +1,6 @@
+//funcion para buscar el id de cualquier identidad , le pasamos el modelo y el nombre 
+// y busca su respectivo ID
+
 export const getEntityId = async (model, name) => {
   try {
     const entity = await model.findOne({ where: { name } });

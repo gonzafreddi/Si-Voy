@@ -19,7 +19,7 @@ export const uploadProvince = async () => {
 
                 // Realiza la petición POST con Axios
                 try {
-                    const response = await axios.post('http://localhost:3000/province/create', provinciaData);
+                    const response = await axois.post('http://localhost:3000/province/create', provinciaData);
                     console.log('Provincia creada:', response.data);
                 } catch (error) {
                     console.error('Error al crear la provincia:', error.message);

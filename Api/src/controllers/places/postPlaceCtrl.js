@@ -1,11 +1,22 @@
-import { City, Places } from "../../db.js";
+import { City, Places, Type } from "../../db.js";
 import { getEntityId } from "../../helpers/getEntityId.js";
 
 export const postPlaceCtrl = async(req, res)=>{
     try {
         const place = req.body
         const {name , profileImage, web, phone, facebook , isPublic, whatsapp, email, linkMapa, mapaFrame, average, city, type} = place
-        const CityId = await getEntityId(City, city)
+        const cityName =  city.split('-')
+        let CityId = await getEntityId(City, cityName[0])
+        if (!CityId) {
+            try {
+                await City.create({ name: cityName[0] });
+                CityId = await getEntityId(City, cityName[0]);
+            } catch (error) {
+                throw new Error('Error creating city: ' + error.message);
+            }
+        }
+       
+        const TypeId = await getEntityId(Type,  type )
         const [ newPlace , created] = await Places.findOrCreate({
             where:{name}, 
             defaults:{
@@ -19,7 +30,8 @@ export const postPlaceCtrl = async(req, res)=>{
                 isPublic, 
                 average,
                 mapaFrame,
-                CityId
+                CityId,
+                TypeId
             }
         })
         if (created) {
