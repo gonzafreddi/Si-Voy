@@ -9,7 +9,11 @@ export default withMT(
       "./node_modules/tw-elements/dist/js/**/*.js",
     ],
     theme: {
-      extend: {},
+      extend: {
+        height: {
+          '40vh': '40vh',
+        },
+      },
     },
     // eslint-disable-next-line no-undef
     plugins: [require("tw-elements/dist/plugin.cjs")]

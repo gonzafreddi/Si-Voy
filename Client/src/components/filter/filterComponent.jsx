@@ -1,7 +1,7 @@
 // import style from './filter.module.css'
-import { Select, Option } from "@material-tailwind/react";
+import { Select, Option , Button} from "@material-tailwind/react";
 export default function FilterComponent(){
-    return(<div className="w-screen flex justify-center">
+    return(<div className="w-screen flex justify-center mb-8 mt-8">
         <div className="flex justify-center w-4/5 border-b-2 border-gray-400">
  <div className="">
     <h3 className="ml-3 font-semibold text-gray-700 text-2xl">Filtre su destino</h3>
@@ -34,9 +34,8 @@ export default function FilterComponent(){
         <Option>Material Tailwind Angular</Option>
         <Option>Material Tailwind Svelte</Option>
       </Select>
-    <button
-    className='bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded'
-    >Buscar</button>
+      <Button color="amber">Ver Mas!</Button>
+
    </div>
  </div>
  </div>
