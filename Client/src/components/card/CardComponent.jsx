@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
  
 export default function CardComponent(){
-    return(<div className="w-auto flex justify-center">
+    return(<div>
     <Card className="mt-6 w-64 mb-6" >
       <CardHeader color="blue-gray" className="relative h-46">
         <img

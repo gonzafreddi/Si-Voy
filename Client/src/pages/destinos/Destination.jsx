@@ -1,5 +1,6 @@
-import CardComponent from '../../components/card/CardComponent.jsx'
+// import CardComponent from '../../components/card/CardComponent.jsx'
 import FilterComponent from '../../components/filter/filterComponent.jsx'
+import Section from '../../components/sections/Section.jsx'
 import TitleSiVoy from '../../components/title/title.jsx'
 import style from './destination.module.css'
 
@@ -13,18 +14,12 @@ export default function Desination(){
      
         </section>
         <FilterComponent/>
-        <section className=' w-screen flex justify-center items-center'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-4/5'>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        </div>
+        <section className=' w-screen flex justify-center items-center flex-col'>
+        <Section name="Gastronomia"/>
+        <Section name="Alojamiento"/>
+        <Section name="Balnearios"/>
+
+
         </section>
         </div>
         </>)
