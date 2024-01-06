@@ -15,7 +15,10 @@ export default withMT(
         },
         spacing: {
           '99': '9vh', // Agrega el nuevo valor para el margen superior
-        }
+        },
+        borderWidth: {
+          '1': '1px', // Puedes personalizar el ancho del borde aquí
+        },
       },
     },
     // eslint-disable-next-line no-undef

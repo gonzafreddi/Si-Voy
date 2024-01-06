@@ -1,5 +1,6 @@
 // import CardComponent from '../../components/card/CardComponent.jsx'
 import FilterComponent from '../../components/filter/filterComponent.jsx'
+import Footer from '../../components/footer/Footer.jsx'
 import Section from '../../components/sections/Section.jsx'
 import TitleSiVoy from '../../components/title/title.jsx'
 import style from './destination.module.css'
@@ -21,6 +22,8 @@ export default function Desination(){
 
 
         </section>
+        <Footer/>
         </div>
+     
         </>)
 }
