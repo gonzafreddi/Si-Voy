@@ -13,6 +13,9 @@ export default withMT(
         height: {
           '40vh': '40vh',
         },
+        spacing: {
+          '99': '9vh', // Agrega el nuevo valor para el margen superior
+        }
       },
     },
     // eslint-disable-next-line no-undef
