@@ -19,7 +19,7 @@ export default function Desination(){
         <Section name="Gastronomia"/>
         <Section name="Alojamiento"/>
         <Section name="Balnearios"/>
-
+        
 
         </section>
         <Footer/>
