@@ -13,8 +13,10 @@ export default withMT(
         height: {
           '40vh': '40vh',
         },
+        
         spacing: {
           '99': '9vh', // Agrega el nuevo valor para el margen superior
+          '60': '60vh'
         },
         borderWidth: {
           '1': '1px', // Puedes personalizar el ancho del borde aquí
