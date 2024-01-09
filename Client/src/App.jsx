@@ -10,6 +10,7 @@ function App() {
     <>
         <Nav/>
         <Routes>
+          <Route path='/' element={<Home/>} />
           <Route path='/destination' element={<Destination />} />
           <Route path='/detail/:Id' element={<Detail/>}/>
         </Routes>
