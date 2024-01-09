@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import CardComponent from "../card/CardComponent";
+// import CardComponent from "../card/CardComponent";
+import Card from "../card/Card";
 
 export default function Section(props){
     return(<div>
@@ -9,10 +10,10 @@ export default function Section(props){
               <p className="text-sm text-blue-500 cursor-pointer">Ver Todos</p>
         </header>
             <div className='w-max grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
-                <CardComponent/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
         </section>
     </div>)
