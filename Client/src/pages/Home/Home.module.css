@@ -1,0 +1,32 @@
+/* Estilos para los botones */
+.button {
+    display: block;
+    width: 150px; /* Ancho del botón, ajusta según sea necesario */
+    margin: 10px 0; /* Espaciado entre botones, ajusta según sea necesario */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    background-color: rgb(237, 237, 1); /* Color de fondo amarillo */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+  }
+  .div{
+      width: 500px; /* Ancho del contenedor de texto, ajusta según sea necesario */
+      padding: 20px; /* Espaciado interno del contenedor */
+      text-align: left; /* Alineación del texto a la izquierda */ 
+  }
+  /* Cambio de estilo al pasar el ratón por encima del botón */
+  .button:hover {
+    background-color: rgb(135, 165, 0); /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+ .letra{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+ }
+ .letraTexto{
+    font-family: 'Cambria', sans-serif;
+    font-size: 1.5rem;
+ }
