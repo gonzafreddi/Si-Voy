@@ -1,20 +1,18 @@
 import style from './Home.module.css'
 import React from 'react';
+import PrimeraParte from '../../components/Primera parte/PrimeraParte';
+import SegundaParte from '../../components/Segunda Parte/SegundaParte';
+import TerceraParte from '../../components/TerceraParte/TerceraParte';
+// import CuartaParte from '../../components/CuartaParte/CuartaParte';
+// import QuintaParte from '../../components/QuintaParte/QuintaParte';
 export default function Home(){
     return(
-        <div className={style.div}>
-        <h1 className={style.letra}>Tu destino sín limites</h1>     
-        <button className={style.button}>Destinos</button>
-        <button className={style.button}>Servicios a empresas</button>
-        <h2 className={style.letra}>¿Quiénes somos?</h2>
-        <img src="https://media.licdn.com/dms/image/C4D03AQF6vgPW5YUH4w/profile-displayphoto-shrink_800_800/0/1623417429856?e=1710374400&v=beta&t=RYnScA5MgAwCRvYSSITSTRaXKSOxPJKLjyqpg_4DpDQ" alt="Fundadora 1"/>
-        
-        <a href="https://media.licdn.com/dms/image/C4D03AQF6vgPW5YUH4w/profile-displayphoto-shrink_800_800/0/1623417429856?e=1710374400&v=beta&t=RYnScA5MgAwCRvYSSITSTRaXKSOxPJKLjyqpg_4DpDQ">
-        <img src="ruta-de-la-imagen.jpg" alt="Fundadora 2"/>
-        </a>
-        <p className={style.letraTexto}>Somos una empresa formada por personas con discapacidad, comprometida con la diversidad, la inclusión y el bienestar de todas las personas. Nos dedicamos a generar un puente entre la oferta y la demanda de servicios turísticos adaptados, trabajando dentro del marco de la responsabilidad social empresaria para lograr un impacto positivo en la sociedad.</p>
-        <h3 className={style.letra}>Nuestra Mision</h3>
-        <p className={style.letraTexto}>SÍ, VOY tiene como misión generar experiencias positivas en las personas con movilidad reducida, por medio de la gestión y promoción del turismo accesible y la transformación de entornos en inclusivos, para garantizar el disfrute del ocio con autonomía.</p>
+        <div>
+        <PrimeraParte />
+        <SegundaParte />
+        <TerceraParte />
+        {/* <CuartaParte />
+        <QuintaParte /> */}
         <span className={style.letra}>Nuestras Alianzas</span>
         <a href="https://media.licdn.com/dms/image/C4D03AQF6vgPW5YUH4w/profile-displayphoto-shrink_800_800/0/1623417429856?e=1710374400&v=beta&t=RYnScA5MgAwCRvYSSITSTRaXKSOxPJKLjyqpg_4DpDQ">
         <img src="ruta-de-la-imagen.jpg" alt="Alianza 1"/>
