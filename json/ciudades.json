@@ -1,0 +1,783 @@
+{
+  "draw": 2,
+  "recordsTotal": 97,
+  "recordsFiltered": 97,
+  "data": [
+    {
+      "id": 1018,
+      "name": "Santa Rosa",
+      "idprovince": 14,
+      "idTipoCiudad": 45,
+      "province": "La Pampa",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 1019,
+      "name": "CABA",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 1020,
+      "name": "San Miguel de Tucumán",
+      "idprovince": 50,
+      "idTipoCiudad": 46,
+      "province": "Tucumán",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 1021,
+      "name": "Villa Gesell",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 1022,
+      "name": "Escobar",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 2020,
+      "name": "San Martin de los Andes",
+      "idprovince": 29,
+      "idTipoCiudad": 48,
+      "province": "Neuquén",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2021,
+      "name": "Rio Gallegos",
+      "idprovince": 55,
+      "idTipoCiudad": 48,
+      "province": "Santa Cruz",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2022,
+      "name": "Bariloche",
+      "idprovince": 54,
+      "idTipoCiudad": 48,
+      "province": "Rio Negro",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2023,
+      "name": "Esquel",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2024,
+      "name": "Trevelin",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2025,
+      "name": "Rawson",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2026,
+      "name": "San Fdo del Valle de Catamarca",
+      "idprovince": 36,
+      "idTipoCiudad": 47,
+      "province": "Catamarca",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 2027,
+      "name": "Puerto Madryn",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2028,
+      "name": "Ushuaia",
+      "idprovince": 52,
+      "idTipoCiudad": 48,
+      "province": "Tierra del Fuego",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 2029,
+      "name": "Mar del Plata",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 2030,
+      "name": "Sierra de los Padres",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 2031,
+      "name": "Villa Unión",
+      "idprovince": 37,
+      "idTipoCiudad": 47,
+      "province": "La Rioja",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 2032,
+      "name": "Tumbaya",
+      "idprovince": 49,
+      "idTipoCiudad": 46,
+      "province": "Jujuy",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4029,
+      "name": "El Calafate",
+      "idprovince": 55,
+      "idTipoCiudad": 48,
+      "province": "Santa Cruz",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4030,
+      "name": "México",
+      "idprovince": 56,
+      "idTipoCiudad": 45,
+      "province": "México",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4031,
+      "name": "San Antonio de Areco",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4032,
+      "name": "Cariló",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4033,
+      "name": "Mar de Ajó",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4034,
+      "name": "Pinamar",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4035,
+      "name": "San Bernardo",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4036,
+      "name": "San Juan",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4037,
+      "name": "Lago Puelo",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4039,
+      "name": "Villa El Chocón",
+      "idprovince": 29,
+      "idTipoCiudad": 48,
+      "province": "Neuquén",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4040,
+      "name": "Moquehue",
+      "idprovince": 29,
+      "idTipoCiudad": 48,
+      "province": "Neuquén",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4041,
+      "name": "Puerto Iguazú",
+      "idprovince": 22,
+      "idTipoCiudad": 49,
+      "province": "Misiones",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4042,
+      "name": "Posadas",
+      "idprovince": 22,
+      "idTipoCiudad": 49,
+      "province": "Misiones",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4043,
+      "name": "Yerba Buena",
+      "idprovince": 50,
+      "idTipoCiudad": 46,
+      "province": "Tucumán",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4044,
+      "name": "Necochea",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4045,
+      "name": "Capilla del Señor",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4046,
+      "name": "Villa Elisa",
+      "idprovince": 42,
+      "idTipoCiudad": 49,
+      "province": "Entre Rios",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4047,
+      "name": "San José",
+      "idprovince": 42,
+      "idTipoCiudad": 49,
+      "province": "Entre Rios",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4048,
+      "name": "Gualeguaychú",
+      "idprovince": 42,
+      "idTipoCiudad": 49,
+      "province": "Entre Rios",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4049,
+      "name": "Concordia",
+      "idprovince": 42,
+      "idTipoCiudad": 49,
+      "province": "Entre Rios",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4050,
+      "name": "Neuquén ",
+      "idprovince": 29,
+      "idTipoCiudad": 48,
+      "province": "Neuquén",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4051,
+      "name": "Rivadavia",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4052,
+      "name": "Salta",
+      "idprovince": 48,
+      "idTipoCiudad": 46,
+      "province": "Salta",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4053,
+      "name": "Cafayate",
+      "idprovince": 48,
+      "idTipoCiudad": 46,
+      "province": "Salta",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4054,
+      "name": "Rosario",
+      "idprovince": 43,
+      "idTipoCiudad": 49,
+      "province": "Santa Fe",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4055,
+      "name": "Santa Fe",
+      "idprovince": 43,
+      "idTipoCiudad": 49,
+      "province": "Santa Fe",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4056,
+      "name": "Los Alisos ",
+      "idprovince": 49,
+      "idTipoCiudad": 46,
+      "province": "Jujuy",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4057,
+      "name": "Tilcara",
+      "idprovince": 49,
+      "idTipoCiudad": 46,
+      "province": "Jujuy",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4058,
+      "name": "Puerto Pirámides",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4059,
+      "name": "San Salvador de Jujuy",
+      "idprovince": 49,
+      "idTipoCiudad": 46,
+      "province": "Jujuy",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4060,
+      "name": "El Chaltén",
+      "idprovince": 55,
+      "idTipoCiudad": 48,
+      "province": "Santa Cruz",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4061,
+      "name": "El Bolsón",
+      "idprovince": 54,
+      "idTipoCiudad": 48,
+      "province": "Rio Negro",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4062,
+      "name": "Luján de Cuyo",
+      "idprovince": 57,
+      "idTipoCiudad": 47,
+      "province": "Mendoza",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4063,
+      "name": "General Rodríguez",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4064,
+      "name": "Sierra de la Ventana",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4065,
+      "name": "Villa Ventana",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4066,
+      "name": "Coronel Suárez",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4067,
+      "name": "Tornquist",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4068,
+      "name": "Coronel Dorrego",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4069,
+      "name": "Valeria del Mar",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4070,
+      "name": "Córdoba",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4071,
+      "name": "Villa Carlos Paz",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4072,
+      "name": "La Cumbre ",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4073,
+      "name": "Villa General Belgrano",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4074,
+      "name": "Candonga",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4075,
+      "name": "Bialet Massé",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4076,
+      "name": "Valle Hermoso",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4077,
+      "name": "Mina Clavero",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4078,
+      "name": "Río Cuarto ",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4079,
+      "name": "Huerta Grande",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4080,
+      "name": "La Falda",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4081,
+      "name": "Jesús María",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4082,
+      "name": "Río Ceballos",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4083,
+      "name": "Salsipuedes",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4084,
+      "name": "Villa Giardino",
+      "idprovince": 19,
+      "idTipoCiudad": 45,
+      "province": "Córdoba",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4085,
+      "name": "Villa de Merlo",
+      "idprovince": 39,
+      "idTipoCiudad": 47,
+      "province": "San Luis",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4086,
+      "name": "Tigre",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4087,
+      "name": "Comodoro Rivadavia",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4088,
+      "name": "Rada Tilly",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4089,
+      "name": "Gaiman",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4090,
+      "name": "Florentino Ameghino",
+      "idprovince": 23,
+      "idTipoCiudad": 48,
+      "province": "Chubut",
+      "tipoCiudad": "Patagonia"
+    },
+    {
+      "id": 4091,
+      "name": "Mar Chiquita",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4092,
+      "name": "Mendoza",
+      "idprovince": 57,
+      "idTipoCiudad": 47,
+      "province": "Mendoza",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4093,
+      "name": "Maipú",
+      "idprovince": 57,
+      "idTipoCiudad": 47,
+      "province": "Mendoza",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4094,
+      "name": "Barreal",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4095,
+      "name": "Caucete",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4096,
+      "name": "Ullúm",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4097,
+      "name": "Pedernal",
+      "idprovince": 40,
+      "idTipoCiudad": 47,
+      "province": "San Juan",
+      "tipoCiudad": "Cuyo"
+    },
+    {
+      "id": 4098,
+      "name": "Berisso",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4099,
+      "name": "Santiago del Estero",
+      "idprovince": 51,
+      "idTipoCiudad": 46,
+      "province": "Santiago del Estero",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4100,
+      "name": "Termas de Río Hondo",
+      "idprovince": 51,
+      "idTipoCiudad": 46,
+      "province": "Santiago del Estero",
+      "tipoCiudad": "Norte"
+    },
+    {
+      "id": 4101,
+      "name": "Villa Ángela",
+      "idprovince": 44,
+      "idTipoCiudad": 49,
+      "province": "Chaco",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4102,
+      "name": "Charata",
+      "idprovince": 44,
+      "idTipoCiudad": 49,
+      "province": "Chaco",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4103,
+      "name": "Sáenz Peña",
+      "idprovince": 44,
+      "idTipoCiudad": 49,
+      "province": "Chaco",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4104,
+      "name": "Resistencia",
+      "idprovince": 44,
+      "idTipoCiudad": 49,
+      "province": "Chaco",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4105,
+      "name": "La Plata",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4106,
+      "name": "Santa Clara del Mar",
+      "idprovince": 16,
+      "idTipoCiudad": 45,
+      "province": "Buenos Aires",
+      "tipoCiudad": "Centro"
+    },
+    {
+      "id": 4107,
+      "name": "El Soberbio",
+      "idprovince": 22,
+      "idTipoCiudad": 49,
+      "province": "Misiones",
+      "tipoCiudad": "Litoral"
+    },
+    {
+      "id": 4108,
+      "name": "San Ignacio",
+      "idprovince": 22,
+      "idTipoCiudad": 49,
+      "province": "Misiones",
+      "tipoCiudad": "Litoral"
+    }
+  ]
+}

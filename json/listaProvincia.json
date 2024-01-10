@@ -1,0 +1,151 @@
+{
+  "draw": 1,
+  "recordsTotal": 24,
+  "recordsFiltered": 24,
+  "data": [
+    {
+      "id": 1,
+      "nombre": "Buenos Aires",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 2,
+      "nombre": "Córdoba",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 3,
+      "nombre": "Santa Fe",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 4,
+      "nombre": "Mendoza",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 5,
+      "nombre": "Tucumán",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 6,
+      "nombre": "Entre Ríos",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 7,
+      "nombre": "Salta",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 8,
+      "nombre": "Misiones",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 9,
+      "nombre": "Chaco",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 10,
+      "nombre": "Formosa",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 11,
+      "nombre": "San Juan",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 12,
+      "nombre": "Jujuy",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 13,
+      "nombre": "San Luis",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 14,
+      "nombre": "Catamarca",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 15,
+      "nombre": "La Rioja",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 16,
+      "nombre": "Santiago del Estero",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 17,
+      "nombre": "Corrientes",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 18,
+      "nombre": "Neuquén",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 19,
+      "nombre": "La Pampa",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 20,
+      "nombre": "Chubut",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 21,
+      "nombre": "Tierra del Fuego",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 22,
+      "nombre": "Ciudad Autónoma de Buenos Aires",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 23,
+      "nombre": "Santa Cruz",
+      "idPais": 1,
+      "pais": "Argentina"
+    },
+    {
+      "id": 24,
+      "nombre": "Islas Malvinas",
+      "idPais": 1,
+      "pais": "Argentina"
+    }
+  ]
+}

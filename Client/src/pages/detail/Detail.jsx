@@ -1,7 +1,8 @@
 import MapaFrame from "../../components/Mapa/Mapa"
 import { CarouselDefault } from "../../components/carousel/Carousel"
 import Description from "../../components/description/Description"
-import useScrollToTopOnMount from '../../utilities/utils.jsx'
+import useScrollToTopOnMount from '../../utilities/topScroll.jsx'
+
 export default function Detail(){
     useScrollToTopOnMount()
     return(<>
