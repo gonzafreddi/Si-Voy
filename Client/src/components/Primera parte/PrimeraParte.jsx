@@ -1,5 +1,4 @@
 import style from './PrimeraParte.module.css'
-import React from 'react';
 export default function PrimeraParte(){
     return(
     <div className={style.div}>

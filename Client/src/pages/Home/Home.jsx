@@ -1,11 +1,16 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/jsx-no-target-blank */
 import style from './Home.module.css'
-import React from 'react';
 import PrimeraParte from '../../components/Primera parte/PrimeraParte';
 import SegundaParte from '../../components/Segunda Parte/SegundaParte';
 import TerceraParte from '../../components/TerceraParte/TerceraParte';
 // import CuartaParte from '../../components/CuartaParte/CuartaParte';
 // import QuintaParte from '../../components/QuintaParte/QuintaParte';
 export default function Home(){
+
+
+
+
     return(
         <div>
         <PrimeraParte />
@@ -28,12 +33,12 @@ export default function Home(){
         </a>
         </div>
         <button id="btnInicio" onclick="irAlInicio()">Ir al Inicio</button>
-       <script>
+       {/* <script>
         // Función para ir al inicio
         function irAlInicio() {
         window.scrollTo({ top: 0, behavior: 'smooth' })
         }
-        </script>
+        </script> */}
         </div>
         );
 }

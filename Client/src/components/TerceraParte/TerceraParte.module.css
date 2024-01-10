@@ -1,3 +1,8 @@
+.conteiner{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
 .letra{
     font-family: 'Cambria', sans-serif;
     font-weight: bold;
@@ -9,15 +14,13 @@
     font-size: 1.5rem;
  }
 
- .div{
-    width: 500px; /* Ancho del contenedor de texto, ajusta según sea necesario */
-    padding: 1px; /* Espaciado interno del contenedor */
-    text-align: left; /* Alineación del texto a la izquierda */
-    background-image: url('https://www.semarconsultora.com/images/web/pensiones.png');
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
-    height: 35vh; /* Ajusta la altura al 100% de la ventana del navegador */
-    margin: 0; /* Elimina el margen predeterminado del body */ 
-    width: 100%; /* Ajusta el ancho al 100% de la ventana del navegador */
+.imgConteiner{
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+.imgConteiner img{
+    width: 100%;
+    height: 100%;
+
 }
