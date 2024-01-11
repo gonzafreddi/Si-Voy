@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     text-align: center;
-    background-color: #bebcbc;
 }
 .letra{
     font-family: 'Cambria', sans-serif;
@@ -11,13 +10,11 @@
     color: black; /* Color del texto en negro */
     background: rgb(237, 237, 1); /* Color para resaltar */
     display: inline;
-    
 }
 
 .letraTexto{
     font-family: 'Cambria', sans-serif;
     font-size: 1.5rem;
-    text-align: center;
  }
 
 .imgConteiner{
@@ -29,4 +26,19 @@
     width: 100%;
     height: 100%;
 
+}
+.button {
+    display: block;
+    margin: 40px auto; /* Ajusta el espaciado entre botones según sea necesario */
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(237, 237, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(135, 165, 0); /* Cambia el color de fondo al pasar el ratón por encima */
 }

@@ -2,7 +2,7 @@
     width: 500px; /* Ancho del contenedor de texto, ajusta según sea necesario */
     padding: 1px; /* Espaciado interno del contenedor */
     text-align: left; /* Alineación del texto a la izquierda */
-    background-color: blue;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 40vh; /* Ajusta la altura al 100% de la ventana del navegador */
@@ -13,22 +13,24 @@
     font-family: 'Cambria', sans-serif;
     font-weight: bold;
     font-size: 3rem;
+    text-align: center;
 }
 .letraTexto{
     font-family: 'Cambria', sans-serif;
     font-size: 1.5rem;
+    text-align: center;
  }
 
 .imgConteiner{
     display: flex;
-    background-color: aqua;
+    
 }
 .foto{
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-    width: 100px; /* Ajusta según sea necesario */
-    height: 100px; /* Ajusta según sea necesario */
-    margin: 5px; 
+    width: 200px; /* Ajusta según sea necesario */
+    height: 200px; /* Ajusta según sea necesario */
+    margin: 50px; 
   }

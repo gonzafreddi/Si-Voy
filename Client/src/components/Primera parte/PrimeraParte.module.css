@@ -2,19 +2,23 @@
     font-family: 'Cambria', sans-serif;
     font-weight: bold;
     font-size: 3rem;
+    margin-bottom: 80px;
 }
 
 .button {
     display: block;
-    margin: 10px 0; /* Ajusta el espaciado entre botones según sea necesario */
-    padding: 50px 50px;
+    margin: 20px 25px; /* Ajusta el espaciado entre botones según sea necesario */
+    padding: 60px;
+    width: 400px; 
     text-align: center;
     text-decoration: none;
     color: #fff;
     background-color: rgb(237, 237, 1);
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    font-size: 1.5rem; /* Ajusta el tamaño de la letra según sea necesario */
+    font-weight: bold; /* Agrega negrita */
 }
 .div{
       width: 500px; /* Ancho del contenedor de texto, ajusta según sea necesario */

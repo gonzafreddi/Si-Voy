@@ -1,0 +1,21 @@
+.letra{
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black; /* Color del texto en negro */
+    display: inline;
+}
+.imgConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Ajusta según sea necesario */
+    gap: 10px; /* Espaciado entre las imágenes */
+    
+}
+
+.imagen {
+    width: 400px; /* Ajusta según sea necesario para reducir el tamaño */
+    height: auto;
+  }
+
